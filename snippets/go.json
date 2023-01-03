@@ -1,0 +1,17 @@
+{
+  "Todo": {
+    "prefix": ["todo"],
+    "body": ["// TODO: $0"],
+    "description": "Todo shortcurt."
+  },
+  "Iferr": {
+    "prefix": ["iferr"],
+    "body": ["if err != nil {\n\t$0\n}"],
+    "description": "If err hellper."
+  },
+  "IfNoterr": {
+    "prefix": ["ifnoterr"],
+    "body": ["if err == nil {\n\t$0\n}"],
+    "description": "If err hellper."
+  }
+}
