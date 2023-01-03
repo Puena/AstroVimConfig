@@ -1,5 +1,5 @@
 return {
-  ensure_isntalled = {
+  ensure_installed = {
     "golangci_lint",
     "hadolint",
     "fixjson",
