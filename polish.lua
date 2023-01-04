@@ -6,5 +6,5 @@ local map = vim.api.nvim_set_keymap
 
 return function()
   map('n', '<leader>fi', '<cmd>lua require("telescope").extensions.goimpl.goimpl{}<cr>',
-    silent_desc("Implement interface for struct under cursor"))
+    silent_desc("Implement interface under cursor"))
 end
